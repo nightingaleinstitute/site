@@ -1374,7 +1374,7 @@ h3 {
 
 .faq_page {
   padding-top: 150px;
-  padding-bottom: 70px;
+  padding-bottom: 130px;
   
 }
 
@@ -1396,7 +1396,7 @@ h3 {
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .faq_page.plus_padding {
-    padding-bottom: 120px;
+    padding-bottom: 125px;
   }
 }
 
