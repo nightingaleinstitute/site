@@ -627,6 +627,18 @@ h3 {
   }
 }
 
+@media (max-height: 998px) {
+  .header-area .main-header-area .application-menu ul li a {
+    display: none !important;
+  }
+}
+
+@media (max-height: 530px) {
+  .header-area .main-header-area .main-menu ul li a {
+    display: none !important;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .header-area .main-header-area {
     padding: 0px;
@@ -704,12 +716,6 @@ h3 {
 
 .header-area .main-header-area .application-menu ul li a {
   padding-top: 40px;
-}
-
-@media (max-height: 998px) {
-  .header-area .main-header-area .main-menu ul li a {
-    display: none !important;
-  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
